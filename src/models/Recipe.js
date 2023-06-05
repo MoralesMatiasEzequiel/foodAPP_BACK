@@ -37,7 +37,7 @@ module.exports = (sequelize) => {
       type: DataTypes.ARRAY(DataTypes.TEXT), 
       allowNull: false
     },
-    createInBd: true
+    // createInBd: true  // createInBd: {type: DataTypes.BOOLEAN}
 
   }, { timestamps: false });  // No se utilizarán automáticamente las columnas de fecha de creación y actualización
 };
